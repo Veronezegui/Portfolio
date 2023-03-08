@@ -7,7 +7,7 @@ export function Home() {
             <Header />
             <div className="content">
                 <h1 className="title">Guilherme Veroneze</h1>
-                <p className="subTitle">Hello, my name is Guilherme Veroneze, nice to meet you, I would like to welcome you with my personal portfolio.</p>
+                <p className="subTitle">Hello, my name is Guilherme Veroneze, nice to meet you, I am a <span>Front-End Developer</span> and I would like to welcome you with my personal portfolio.</p>
             </div>
             <div id="about">
                 <h1 className="aboutTitle">
@@ -50,21 +50,38 @@ export function Home() {
                 <div className="timeline">
                     <div className="tl-container-left">
                         <ul className="tl-content">
-                            <h2>2023</h2>
+                            <h2>2022</h2>
                             <li>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse vitae aspernatur impedit sed nam quibusdam,
-                                odio ex voluptate at iste voluptates, excepturi amet, voluptatibus repellat quasi doloribus quisquam debitis eum.
+                                Ago - Desenvolvedor Front-End - Cortex LTDA
+                            </li>
+                            <li>
+                                Dez - Bacharelado em Sistemas de informação - UniFOA (100% concluído)
                             </li>
                         </ul>
                     </div>
                     <div className="tl-container-right">
-                        <div className="tl-content">
-                            <h2>2022</h2>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse vitae aspernatur impedit sed nam quibusdam,
-                                odio ex voluptate at iste voluptates, excepturi amet, voluptatibus repellat quasi doloribus quisquam debitis eum.
-                            </p>
-                        </div>
+                        <ul className="tl-content">
+                            <h2>2020</h2>
+                            <li>
+                                Coordenador de Ti - Viação Pinheiral
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="tl-container-left">
+                        <ul className="tl-content">
+                            <h2>2019</h2>
+                            <li>
+                                Bacharelado em Sistemas de informação - UniFOA (0% concluído)
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="tl-container-right">
+                        <ul className="tl-content">
+                            <h2>2016</h2>
+                            <li>
+                                Curso Técnico de Informática - Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

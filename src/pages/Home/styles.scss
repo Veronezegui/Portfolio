@@ -8,10 +8,10 @@
 
 
     .content {
-        margin-top: 300px;
         width: 80%;
         height: 100vh;
         display: flex;
+        justify-content: center;
         gap: 20px;
         flex-direction: column;
 
@@ -26,6 +26,14 @@
             inline-size: 60%;
             color: #000;
             font-size: 20px;
+
+            span {
+                background: #000;
+                color: #fff;
+                padding: 5px 12px;
+                border-radius: 8px;
+                font-weight: 700;
+            }
         }
     }
 
@@ -34,6 +42,7 @@
         width: 80%;
         height: 100vh;
         display: flex;
+        justify-content: center;
         gap: 16px;
         flex-direction: column;
 
@@ -53,6 +62,7 @@
         height: 100vh;
         display: flex;
         gap: 50px;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
 
@@ -77,16 +87,16 @@
         }
 
         .tl-container-left {
-            width: 45%;
+            max-width: 50%;
             position: relative;
             padding: 20px 40px;
             box-shadow: 0px 10px 15px #000;
-            left: 0;
+            left: -5%;
         }
 
 
         .tl-container-right {
-            width: 45%;
+            max-width: 50%;
             position: relative;
             padding: 20px 40px;
             box-shadow: 0px 10px 15px #000;
