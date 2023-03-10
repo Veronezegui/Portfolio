@@ -1,19 +1,27 @@
+import AOS from "aos";
+import 'aos/dist/aos.css'
 import { Header } from "../../components/Header";
 import "./styles.scss";
 
+AOS.init()
+
 export function Home() {
+
     return (
         <div className="container">
             <Header />
             <div className="content">
-                <h1 className="title">Guilherme Veroneze</h1>
-                <p className="subTitle">Hello, my name is Guilherme Veroneze, nice to meet you, I am a <span>Front-End Developer</span> and I would like to welcome you with my personal portfolio.</p>
+                <div className="titles">
+                    <h1 className="title">Guilherme Veroneze</h1>
+                    <p className="subTitle">Hello, my name is Guilherme Veroneze, nice to meet you, I am a <span>Front-End Developer</span> and I would like to welcome you with my personal portfolio.</p>
+                </div>
+                <img src="/fish.png" alt="fish" />
             </div>
-            <div id="about">
-                <h1 className="aboutTitle">
+            <div id="about" data-aos="fade-right">
+                <h1 className="aboutTitle ">
                     About me
                 </h1>
-                <p className="aboutContent">
+                <p>
                     Meu contato com a área de tecnologia começou quando eu tinha 16 anos, com meu curso técnico de informática que fiz no IFRJ aqui
                     da minha cidade, Pinheiral, lá foi o meu primeiro contato com lógica de programação, algoritmos, html, css,
                     javascript e de cara eu já tive um interesse por essa área do front-end, conforme eu ia aprendendo as tags,
@@ -44,8 +52,9 @@ export function Home() {
                     manter um contato e ajudar o máximo que eu pudesse o coordenador de Ti da época, que no momento estava começando a
                     desenvolver o dashboard de bilhetagem da empresa.
                 </p>
+                <button>See more</button>
             </div>
-            <div id="experience">
+            <div id="experience" data-aos="fade-right">
                 <h1 className="aboutTitle">My Experience</h1>
                 <div className="timeline">
                     <div className="tl-container-left">

@@ -12,8 +12,18 @@
         height: 100vh;
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 20px;
-        flex-direction: column;
+
+        img {
+            height: 400px;
+        }
+
+        .titles {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
 
         .title {
             inline-size: 50%;
@@ -23,7 +33,7 @@
         }
 
         .subTitle {
-            inline-size: 60%;
+            inline-size: 80%;
             color: #000;
             font-size: 20px;
 
